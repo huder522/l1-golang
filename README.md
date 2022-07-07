@@ -1,1 +1,1 @@
-# l1-golang
+# Exercises to practice Go
