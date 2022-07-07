@@ -42,11 +42,29 @@ func division() {
 
 }
 
+// function calculate igv
+func calculateIGV() {
+	var sellingPrice float32
+	var igv float32
+
+	fmt.Println( "Input the selling price" )
+	fmt.Scanln( &sellingPrice )
+
+	igv = sellingPrice * 0.18
+
+	fmt.Println( "Selling price:", sellingPrice )
+	fmt.Println( "IGV: ", igv )
+	fmt.Println( "left:", sellingPrice - igv )
+
+}
+
 
 func main() {
 	
-	add()
+	// add()
 
-	division()
+	// division()
+
+	calculateIGV()
 
 }
